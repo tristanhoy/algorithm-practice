@@ -16,6 +16,8 @@
     "typescript": "5.0.4"
   },
   "jest": {
-    "testMatch": ["**/dist/__tests__/*.test.js"]
+    "testMatch": [
+      "**/dist/__tests__/*.test.js"
+    ]
   }
 }
