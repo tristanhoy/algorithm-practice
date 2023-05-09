@@ -6,6 +6,6 @@ export function largestNumber (arr: number[]): number {
   throw Error('not yet implemented')
 }
 
-export function secondLargestNumnber (arr: number[]): number {
+export function secondLargestNumber (arr: number[]): number {
   throw Error('not yet implemented')
 }
