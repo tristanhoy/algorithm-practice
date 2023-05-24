@@ -9,3 +9,19 @@ export function largestNumber (arr: number[]): number {
 export function secondLargestNumber (arr: number[]): number {
   throw Error('not yet implemented')
 }
+
+export function sum (arr: number[]): number {
+  throw Error('not yet implemented')
+}
+
+export function mean (arr: number[]): number|undefined {
+  throw Error('not yet implemented')
+}
+
+export function median (arr: number[]): number|undefined {
+  throw Error('not yet implemented')
+}
+
+export function mode (arr: number[]): number|undefined {
+  throw Error('not yet implemented')
+}
