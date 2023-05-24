@@ -3,7 +3,7 @@ import { test, expect } from '@jest/globals'
 import {
   countUnique,
   largestNumber,
-  secondLargestNumnber
+  secondLargestNumber
 } from '../01-arrays'
 
 test('countUnique', () => {
@@ -22,7 +22,7 @@ test.skip('largestNumber', () => {
 
 // remove ".skip" when you're ready to start this algorithm
 test.skip('secondLargestNumnber', () => {
-  expect(secondLargestNumnber([1, 2, 3])).toEqual(2)
-  expect(secondLargestNumnber([1, 3, 2])).toEqual(2)
-  expect(secondLargestNumnber([1, 3, 3, 5, 5])).toEqual(3)
+  expect(secondLargestNumber([1, 2, 3])).toEqual(2)
+  expect(secondLargestNumber([1, 3, 2])).toEqual(2)
+  expect(secondLargestNumber([1, 3, 3, 5, 5])).toEqual(3)
 })
