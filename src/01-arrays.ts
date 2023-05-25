@@ -18,10 +18,6 @@ export function mean (arr: number[]): number|undefined {
   throw Error('not yet implemented')
 }
 
-export function median (arr: number[]): number|undefined {
-  throw Error('not yet implemented')
-}
-
 export function mode (arr: number[]): number|undefined {
   throw Error('not yet implemented')
 }

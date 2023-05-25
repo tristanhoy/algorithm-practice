@@ -6,7 +6,6 @@ import {
   secondLargestNumber,
   sum,
   mean,
-  median,
   mode
 } from '../01-arrays'
 
@@ -42,13 +41,6 @@ test.skip('mean', () => {
   expect(mean([1, 2, 3])).toEqual(2)
   expect(mean([10, 20])).toEqual(15)
   expect(mean([])).toEqual(undefined)
-})
-
-// remove ".skip" when you're ready to start this algorithm
-test.skip('median', () => {
-  expect(median([1, 2, 3, 4, 5, 6, 200])).toEqual(4)
-  expect(median([1, 2, 3, 4, 5, 5, 6, 200])).toEqual(4.5)
-  expect(median([])).toEqual(undefined)
 })
 
 // remove ".skip" when you're ready to start this algorithm
