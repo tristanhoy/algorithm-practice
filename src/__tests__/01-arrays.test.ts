@@ -47,8 +47,17 @@ test.skip('mean', () => {
 test.skip('mode', () => {
   expect(mode([1, 1, 1, 2])).toEqual(1)
   expect(mode([1, 2, 3, 4, 5, 5])).toEqual(5)
+  expect(mode([])).toEqual(undefined)
+})
+
+// remove ".skip" when you're ready to start this algorithm
+test.skip('stableMode', () => {
+  expect(mode([1, 1, 1, 2])).toEqual(1)
+  expect(mode([1, 2, 3, 4, 5, 5])).toEqual(5)
+
+  // should always use the smallest in a tiebreaker
   expect(mode([1, 1, 2, 2])).toEqual(1)
-  // Bonus!!
-  // expect(mode([2, 2, 1, 1])).toEqual(1)
+  expect(mode([2, 2, 1, 1])).toEqual(1)
+
   expect(mode([])).toEqual(undefined)
 })

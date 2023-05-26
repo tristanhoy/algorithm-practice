@@ -21,3 +21,7 @@ export function mean (arr: number[]): number|undefined {
 export function mode (arr: number[]): number|undefined {
   throw Error('not yet implemented')
 }
+
+export function stableMode (arr: number[]): number|undefined {
+  throw Error('not yet implemented')
+}

@@ -10,7 +10,8 @@ export const sumMachine = {
   init: (): SumMachineState => {
     throw new Error('not yet implemented')
   },
-  update: (state: SumMachineState, action: SumMachineAction) => {
+  update: (state: SumMachineState, action: SumMachineAction): void => {
+    // mutate the state (don't return a new object)
     throw new Error('not yet implemented')
   }
 }
@@ -33,7 +34,8 @@ export const debounceMachine = {
   init: (interval: number): DebounceMachineState => {
     throw new Error('not yet implemented')
   },
-  update: (state: DebounceMachineState, action: DebounceMachineAction) => {
+  update: (state: DebounceMachineState, action: DebounceMachineAction): void => {
+    // mutate the state (don't return a new object)
     throw new Error('not yet implemented')
   }
 }
